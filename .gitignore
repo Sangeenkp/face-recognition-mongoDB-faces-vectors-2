@@ -1,0 +1,5 @@
+config.yml
+# /backend/venv/Lib
+backend/venv/Lib/
+backend/venv/deepface/__pycache__/
+backend/venv/deepface/dlib-shape-predictor/

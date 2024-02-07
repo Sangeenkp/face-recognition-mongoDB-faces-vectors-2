@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.logo {
+  display: block;
+}
+
+.example-face-img {
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: block;
+}
+
+.para {
+  color: rgb(228, 244, 244);
+  font-size: larger;
+  margin: 5px;
+}
+
+.webcam-button,
+.check-user-webcam-button,
+.button {
+  width: 200px;
+  height: 50px;
+  border-radius: 6px;
+  border: 1px solid rgb(69, 116, 185);
+  font-size: 18px;
+  font-family: 'Roboto';
+  cursor: pointer;
+  transition: 250ms ease-in-out all;
+  margin-right: 40px;
+}
+
+.webcam-button,
+.check-user-webcam-button {
+  background-color: rgb(141, 176, 241);
+}
+
+.webcam-button:hover,
+.check-user-webcam-button:hover,
+.button:hover {
+  background-color: rgb(86, 141, 243);
+  color: white;
+}
+
+.webcam-component {
+  display: block;
+  background: blue;
+}
+
+.modal-input {
+  padding: 10px 10px 10px 10px;
+  display: inline-block;
+  margin: 20px 10px 20px 0px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid rgb(69, 116, 185);
+  transition: 250ms ease-in-out all;
+}
+
+.modal-input:focus {
+  outline: none;
+  background: rgb(218, 229, 229);
+}
+
+.save-button,
+.check-button {
+  width: 200px;
+  height: 50px;
+  display: inline-block;
+  background-color: rgb(141, 176, 241);
+  border-radius: 6px;
+  border: 1px solid rgb(69, 116, 185);
+  font-size: 18px;
+  font-family: 'Roboto';
+  cursor: pointer;
+  transition: 250ms ease-in-out all;
+}
+
+.add-user-li {
+  list-style: none;
+  display: inline-block;
+  margin: 10px;
+}
+
+.check-image-li {
+  list-style: none;
+  display: block;
+  margin: 10px;
+}
+
+.save-button-disabled:hover,
+.check-button-disabled:hover {
+  cursor: not-allowed;
+}
+
+.save-button-enabled:hover,
+.check-button-enabled:hover {
+  cursor: pointer;
+  background-color: rgb(86, 141, 243);
+  color: white;
+}
